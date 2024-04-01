@@ -1,0 +1,22 @@
+*Sorav Kondal Wife Kidnapped*
+
+Certainly, here's the algorithm without any accompanying code:
+
+1. **Initialization:**
+   - Sorav starts his investigation in Dubai.
+   - Sorav has an initial list of contacts in Dubai.
+   - Initialize an empty set to keep track of visited contacts.
+
+2. **Exploration:**
+   - While there are contacts to explore:
+     - Select the next contact from the list of contacts.
+     - Communicate with the contact to gather information about the kidnapping.
+     - If the contact provides new leads (additional people involved), add them to the list of contacts for further investigation.
+     - Mark the current contact as visited to avoid revisiting.
+
+3. **Termination:**
+   - The investigation ends when:
+     - Sorav has gathered sufficient information to solve the case, or
+     - There are no more contacts left to explore.
+
+This algorithm outlines the investigative process Sorav undertakes to gather information about the kidnapping by interacting with contacts and following leads provided by them.
