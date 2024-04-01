@@ -1,0 +1,38 @@
+**Title: Soldier's Pathfinding Algorithm**
+
+1. **Initialize:**
+   - Prepare the soldier for the mission.
+   - Create a 5x5 grid with random threat levels.
+
+2. **Memoization Setup:**
+   - Initialize a memoization table with large values.
+
+3. **Start and End Points:**
+   - Set start point: top-left corner.
+   - Define end point: bottom-right corner.
+
+4. **End Point Cost:**
+   - Set cost at end point to zero.
+
+5. **Update Memoization:**
+   - Iterate through grid cells.
+   - Calculate minimum cost to reach each cell.
+   - Update memoization table with minimum cost.
+
+6. **Pathfinding:**
+   - Trace optimal path from end point to start.
+   - Choose neighboring cell with minimum cost at each step.
+   - Add cells to path until reaching start.
+
+7. **Reverse Path:**
+   - Reverse obtained path for start to end route.
+
+8. **Display Path:**
+   - Print optimal path for soldier to traverse.
+
+9. **Calculate Total:**
+   - Determine total terrorists eliminated along path.
+
+10. **Mission Complete:**
+    - Conclude mission, highlighting soldier's success in neutralizing threats.
+    - Acknowledge soldier's bravery and strategy for ensuring peace.
