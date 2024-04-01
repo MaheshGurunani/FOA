@@ -1,0 +1,14 @@
+*Rajnikant Problem Airoplane*
+
+1. Initialize two runways with 3 planes and 4 planes respectively.
+2. Initialize a variable to keep track of the total terrorists eliminated.
+3. Repeat the following steps:
+    a. For each plane in Runway 1:
+        i. Rajnikant enters the plane, knocks out all terrorists, and saves passengers.
+        ii. Rajnikant returns to the starting point.
+        iii. Increment the total terrorists eliminated by the number eliminated in this plane.
+    b. For each plane in Runway 2:
+        i. Rajnikant enters the plane, knocks out all terrorists, and saves passengers.
+        ii. Rajnikant returns to the starting point.
+        iii. Increment the total terrorists eliminated by the number eliminated in this plane.
+4. Print the total terrorists eliminated and the sequence of planes visited.
